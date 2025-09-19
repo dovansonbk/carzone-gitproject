@@ -25,3 +25,6 @@ python -m venv env
 
 virtualenv --version
 pip freeze
+
+python manage.py collectstatic
+python manage.py --help
